@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import normalize
 
 # read athleteEvents
-df = pd.read_csv("athleteEvents.csv")
+df = pd.read_csv("athlete_events.csv")
 
 df = df[['Team','Medal','Sport','Year']]
 # drop rows that contain 'N/A' in 'Medal'
